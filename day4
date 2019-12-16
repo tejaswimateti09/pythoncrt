@@ -1,0 +1,350 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# jupyter markdown\n",
+    "## jupyter markdown\n",
+    "### jupyter markdown"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "- point 1\n",
+    "- point 2\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "- point 1\n",
+    "    - sub point 1.1\n",
+    "    - sub point 1.2\n",
+    "    - sub point 1.3\n",
+    "- point 2"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "- point 1\n",
+    "    - *sub point 1.1*\n",
+    "    - **sub point 1.2**"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "- ***point 1***"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### python introduction\n",
+    "- python 3\n",
+    "- python can be used as functional programming \n",
+    "- pythin can also be used as scripting programming\n",
+    "- python initially designed by guido van rossum in 1991"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "hello world\n",
+      "welcome to python programming\n"
+     ]
+    }
+   ],
+   "source": [
+    "# input and output funtion\n",
+    "# output function\n",
+    "print(\"hello world\")\n",
+    "print(\"welcome to python programming\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "markdown cell code cell\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"markdown cell\",end = ' ')\n",
+    "print(\"code cell\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enter ur name : \n",
+      " tejaswi\n",
+      "ur name is  tejaswi\n"
+     ]
+    }
+   ],
+   "source": [
+    "# input function\n",
+    "print(\"enter ur name : \")\n",
+    "a = input(' ')\n",
+    "print('ur name is ',a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enter a\n",
+      " 12\n",
+      "enter b\n",
+      " 12\n",
+      "addition is  24\n"
+     ]
+    }
+   ],
+   "source": [
+    "# input function\n",
+    "print(\"enter a\")\n",
+    "a = int(input(' '))\n",
+    "print(\"enter b\")\n",
+    "b = int(input(' '))\n",
+    "print('addition is ',a+b)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      " tejaswi\n",
+      "enter name  tejaswi\n",
+      " 12\n",
+      "enter age  12\n",
+      "name is  tejaswi and age is  12\n"
+     ]
+    }
+   ],
+   "source": [
+    "# input function\n",
+    "a= input(' ')\n",
+    "print(\"enter name \",a)\n",
+    "b= int(input(' '))\n",
+    "print(\"enter age \",b)\n",
+    "print(\"name is \",a ,end=' ')\n",
+    "print(\"and age is \",b)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### datatypes:\n",
+    "#### fundamental datatypes:\n",
+    "1. int\n",
+    "2. float\n",
+    "3. complex\n",
+    "4. boolean\n",
+    "5. string\n",
+    "\n",
+    "#### collection datatypes\n",
+    "1. list\n",
+    "2. tuple\n",
+    "3. dictionary\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(11+10j)\n",
+      "(-3+2j)\n"
+     ]
+    }
+   ],
+   "source": [
+    "# input function\n",
+    "c1= 4+6j\n",
+    "c2= 7+4j\n",
+    "print(c1+c2)\n",
+    "print(c1-c2)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "True <class 'bool'>\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 12<45\n",
+    "print(a, type(a))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "c\n",
+      "t\n",
+      "xyz\n",
+      "xyz\n",
+      "tej\n",
+      "acxz\n"
+     ]
+    }
+   ],
+   "source": [
+    "# strings\n",
+    "s1 = \"abc xyz\"\n",
+    "s2 = \"tej\"\n",
+    "print(s1[2])\n",
+    "print(s2[-3])\n",
+    "print(s1[4:7])\n",
+    "print(s1[-3:])\n",
+    "print(s2[-3:])\n",
+    "print(s1[::2])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "TEJASWE\n"
+     ]
+    }
+   ],
+   "source": [
+    "str1 = \"TEJASWI\"\n",
+    "str1 = str1.replace('I','E')\n",
+    "print(str1)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
